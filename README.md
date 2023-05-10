@@ -56,6 +56,47 @@ Predictionf from both the self-ensembled model and the PyCaret model were submit
 ---
 ## Results/Primary Findings
 
+==============================================
+Linear regression Training score: 0.8099181538889013
+Linear regression Testing score: 0.8104766968969612
+==============================================
+Decision Tree regressor Training score: 0.8413953540407101
+Decision Tree regressor Testing score: 0.7635734649315802
+Random Searched Decision Tree Score (Train): 0.754918242806616
+Random Searched Decision Tree Score (Test): 0.7447592285113995
+==============================================
+Random Forest regression Training score: 0.9617538186347514
+Random Forest regression Testing score: 0.7987079248010366
+Random Searched Random Forest Score (Train): 0.8534238909887624
+Random Searched Random Forest Score (Test): 0.8264464477824622
+==============================================
+Bagging regressor Training score: 0.9628280605699523
+Bagging regressor Testing score: 0.7951080646883156
+Random Searched Bagged Decision Tree Score (Train): 0.8193138844282389
+Random Searched Bagged Decision Tree Score (Test): 0.7906932357006674
+==============================================
+Adaboost regressor Training score: 0.7336949896527206
+Adaboost regressor Testing score: 0.7292821690509237
+Random Searched Adaboost Score (Train): 0.7949444153264841
+Random Searched Adaboost Score (Test): 0.7995397421933199
+==============================================
+GradientBoost regressor Training score: 0.8472589951109507
+GradientBoost Tree regressor Testing score: 0.8252494142671271
+Random Searched Gradientboost Score (Train): 0.8392617945130856
+Random Searched Gradientboost Score (Test): 0.8254481161219985
+==============================================
+KNN regressor Training score: 0.8293788914372683
+KNN Tree regressor Testing score: 0.7472037517704027
+Random Searched KNN Score (Train): 0.999994517331852
+Random Searched KNN Score (Test): 0.7677358435145182
+==============================================
+XGBoost Training score: 0.8281530191191618
+XGBoost Testing score: 0.8026802685061007
+Random Searched XGBoost Score (Train): 0.999994517331852
+Random Searched XGBoost Score (Test): 0.7677358435145182
+==============================================
+Ensembled Training score: 0.8389627674720598
+Ensembled Testing score: 0.8253880697825744
 
 
 ---
