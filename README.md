@@ -15,12 +15,16 @@ A number of machine learning models (and the weights of variables) were evaluate
 
 The PyCaret library is also demonstrated, which offers "single-line" evaluation of many different regressors.
 
-Predictionf from both the self-ensembled model and the PyCaret model were submitted to Kaggle.
+Predictions from both the self-ensembled model and the PyCaret model were submitted to Kaggle.  Ultimately, the PyCaret model performed better (had shorter execution time and produced higher scoring results) than the "traditional" ensembled counterpart.
+
+Key results are as follow:
+
+
 
 ---
 ## Data Dictionary
 
-|Data Label|Source|dtype|Example|
+|Data Label|Unit|dtype|Description|
 |---|---|---|---|
 |name|IMDb|object(str)|'My Hero Academia'|
 |href|IMDb|object(str)|'/title/tt5626028/'|
@@ -28,6 +32,24 @@ Predictionf from both the self-ensembled model and the PyCaret model were submit
 |imdb_description|IMDb|object(str)|'A superhero-loving boy without any powers is d...'|
 |pg_rating|IMDb|object(str)|'TV-14'|
 |imdb_genre_tags|IMDb|object(pandas series)|Animation, Action, Adventure|
+
+|Clonesize|m2|float64|The average blueberry clone size in the field|
+|Honeybee|bees/m2/min|float64|Honeybee density in the field|
+|Bumbles|bees/m2/min|float64|Bumblebee density in the field|
+|Andrena|bees/m2/min|float64|Andrena bee density in the field|
+|Osmia|bees/m2/min|float64|Osmia bee density in the field|
+|MaxOfUpperTRange|℃|float64|The highest record of the upper band daily air temperature during the bloom season|
+|MinOfUpperTRange|℃|float64|The lowest record of the upper band daily air temperature|
+|AverageOfUpperTRange|℃|float64|The average of the upper band daily air temperature|
+|MaxOfLowerTRange|℃|float64|The highest record of the lower band daily air temperature|
+|MinOfLowerTRange|℃|float64|The lowest record of the lower band daily air temperature|
+|AverageOfLowerTRange|℃|float64|The average of the lower band daily air temperature|
+|RainingDays|Day|float64|The total number of days during the bloom season, each of which has precipitation larger than zero|
+|AverageRainingDays|Day|float64|The average of raining days of the entire bloom season|
+|fruitset|(units not given)|float64|(no description given)|
+|fruitmass|(units not given)|float64|(no description given)|
+|seeds|(units not given)|float64|(no description given)|
+|yield|(units not given)|float64|Wild blueberry yield (the prediction target)|
 
 
 ---
@@ -105,4 +127,4 @@ Predictionf from both the self-ensembled model and the PyCaret model were submit
 ## Sources & References
 
 1. https://www.kaggle.com/datasets/shashwatwork/wild-blueberry-yield-prediction-dataset
-2. https://data.mendeley.com/datasets/p5hvjzsvn8/1
+2. (Original data) Efrem Yohannes Obsie, Hongchun Qu, Francis Drummond. "Plant spatial traits, bee species composition, and weather conditions dataset for wild blueberry yield prediction through computer simulation modeling and machine learning algorithms." https://data.mendeley.com/datasets/p5hvjzsvn8/1
